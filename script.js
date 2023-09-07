@@ -29,9 +29,10 @@ let page = 2;
         image.src = result.urls.small;
         image.alt = result.alt_description;
         const imageLink = document.createElement("a");
-        image.Link.href = result.links.html;
-        image.Link.target = "_blank";
+        imageLink.href = result.links.html;
+        imageLink.target = "_blank";
         imageLink.textContent = result.alt_description;
+
 
 
         imageWrapper.appendChild(image);
