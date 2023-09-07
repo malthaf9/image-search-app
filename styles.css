@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: "Poppin", sans-serif;
 }
- 
+
 /*---- body area ----*/
 body {
     line-height: 1.6;
@@ -13,10 +13,10 @@ body {
 
 /*---- heading element area ----*/
 h1 {
-    font-size: 36;
+    font-size: 36px; /* Added 'px' unit */
     font-weight: bold;
     text-align: center;
-    margin: 40px 0 px 60px 0px;
+    margin: 40px 0 60px 0; /* Removed extra space in margin values */
 }
 
 /*---- form area ----*/
@@ -51,7 +51,7 @@ form {
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
-} 
+}
 
 /*---- images area ----*/
 .search-results {
@@ -103,7 +103,7 @@ form {
     margin: 30px auto;
     border-radius: 5px;
     cursor: pointer;
-    display: none;
+    /* Removed duplicate 'display' property */
 }
 
 /*---- media screen width area ----*/
@@ -121,6 +121,7 @@ form {
         width: 100%;
     }
 }
+
 
 
 
